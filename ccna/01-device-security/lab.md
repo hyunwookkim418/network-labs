@@ -19,7 +19,7 @@ In this lab you will:
 ---
 ## Task 1 — Change the Hostname
 
-## On R1
+On R1
 ```bash
 enable
 configure terminal
@@ -28,12 +28,13 @@ exit
 ```
 ---
 ## Task 2 — Configure an Unencrypted enable password
+
 ```bash
 configure terminal
 enable password CCNA
 exit
 ```
-### Test it
+Test it:
 ```bash
 exit
 enable
