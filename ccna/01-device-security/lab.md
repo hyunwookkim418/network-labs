@@ -31,3 +31,71 @@ exit
 enable
 Password: CCNA
 ```
+---
+## Task 3 — View Password in Running Configuration
+
+```bash
+show running-config
+```
+
+You should see:
+
+```
+enable password CCNA
+```
+
+This is **plaintext (insecure)**.
+---
+## Task 4 — Encrypt All Plaintext Passwords
+
+```bash
+configure terminal
+service password-encryption
+exit
+```
+
+### Verify encryption
+```bash
+show running-config
+```
+
+Expected:
+
+```
+enable password 7 <encrypted_string>
+```
+---
+## Task 5 — Configure a Secure `enable secret`
+
+```bash
+configure terminal
+enable secret Cisco
+exit
+```
+
+### Verify
+```bash
+show running-config
+```
+
+### Expected Results
+
+| Password Type     | Command         | Encrypted Type | Strength        |
+|------------------|-----------------|----------------|-----------------|
+| enable password  | Type 7          | Weak           | ❌ Not secure   |
+| enable secret    | Type 5          | Strong hash    | ✔ Recommended   |
+---
+## Task 6 — Save the Configuration
+
+Any of the following:
+
+```bash
+write memory
+```
+
+or
+
+```bash
+copy running-config startup-config
+```
+---
