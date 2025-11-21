@@ -8,29 +8,26 @@ In this lab you will:
 - Enable password encryption
 - Configure a secure enable secret
 - Save the configuration
-
 ---
+# Task 1 — Change the Hostname
 
-## Topology
-![Topology](./images/topology.png)
-
----
-
-## Task 1 — Change the Hostname
-
-**On R1**
+## On R1
 ```bash
 enable
 configure terminal
 hostname R1
 exit
-
-## Task 2 — Configure an Unencrypted enable password
+```
+---
+# Task 2 — Configure an Unencrypted enable password
+```bash
 configure terminal
 enable password CCNA
 exit
-
-Test it
+```
+### Test it
+```bash
 exit
 enable
 Password: CCNA
+```
