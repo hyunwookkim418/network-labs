@@ -22,7 +22,7 @@ Expected output example:
 |------|----------------|---------|-------|
 |    1 | aaaa.bbbb.cccc | DYNAMIC | Fa0/1 |
 ---
-## 2 — Generate Traffic to Populate the MAC Table
+## Task 2 — Generate Traffic to Populate the MAC Table
 From PC1 or PC2:
 ```bash
 ping <other_host_ip>
