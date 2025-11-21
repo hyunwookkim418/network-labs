@@ -9,7 +9,7 @@ In this lab you will:
 - Verify forwarding decisions based on MAC learning
 
 ---
-## Task 2 — Generate Traffic to Populate the MAC Table
+## Task 1 — Generate Traffic to Populate the MAC Table
 From PC1 or PC2:
 ```bash
 ping <other_host_ip>
@@ -23,7 +23,7 @@ Expected:
 - Entries appear only after traffic is seen.
 ---
 
-## Task 1 — View the MAC Address Table
+## Task 2 — View the MAC Address Table
 On SW1
 ```bash
 enable
