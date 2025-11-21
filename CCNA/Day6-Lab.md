@@ -7,6 +7,7 @@ In this lab you will:
 - Clear dynamic MAC entries
 - Observe MAC relearning behavior
 - Verify forwarding decisions based on MAC learning
+- Understand how MAC learning happens (ARP Request  →  ARP Reply  →  ICMP Echo Request  →  ICMP Echo Reply)
 
 ---
 ## Task 1 — Generate Traffic to Populate the MAC Table
