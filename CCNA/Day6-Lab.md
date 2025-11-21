@@ -48,18 +48,6 @@ Expected:
 - Static entries remain.
 ---
 
-## Task 4 — Observe Relearning Behavior
-After clearing the MAC table:
-1. Ping again between hosts
-2. Check the table:
-```bash
-show mac address-table
-```
-Expected:
-- Switch immediately relearns MACs from incoming frames.
-- New entries reappear under appropriate ports.
----
-
 ## Credits
 
 These labs were inspired by the instructional style and lab structure shown in the **Day 6: Analyzing Ethernet Switching** lesson from **Jeremy’s IT Lab CCNA course**. Jeremy’s clear explanations and practical demonstrations played a significant role in shaping the format and learning approach used in this repository.
