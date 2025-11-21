@@ -24,3 +24,13 @@ enable
 configure terminal
 hostname R1
 exit
+
+## Task 2 — Configure an Unencrypted enable password
+configure terminal
+enable password CCNA
+exit
+
+Test it
+exit
+enable
+Password: CCNA
