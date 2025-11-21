@@ -1,11 +1,3 @@
-## Credits
-
-These labs were inspired by the instructional style and lab structure taught in **Jeremy’s IT Lab CCNA course**.  
-Jeremy’s clear explanations and practical demonstrations played a significant role in shaping the format and learning approach used in this repository.
-
-You can find Jeremy’s IT Lab here:  
-https://www.youtube.com/c/JeremysITLab
-
 # Lab 01 — Device Security Basics
 
 ## Objective
@@ -105,3 +97,11 @@ or
 copy running-config startup-config
 ```
 ---
+## Credits
+
+These labs were inspired by the instructional style and lab structure taught in **Jeremy’s IT Lab CCNA course**.  
+Jeremy’s clear explanations and practical demonstrations played a significant role in shaping the format and learning approach used in this repository.
+
+You can find Jeremy’s IT Lab here:  
+https://www.youtube.com/c/JeremysITLab
+
