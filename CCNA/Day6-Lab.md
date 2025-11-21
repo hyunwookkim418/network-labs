@@ -28,7 +28,6 @@ On SW1
 ```bash
 enable
 show mac address-table
-show mac address-table dynamic
 ```
 Expected output example:
 | Vlan | Mac Address    | Type    | Ports |
