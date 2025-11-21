@@ -80,13 +80,12 @@ enable secret Cisco
 exit
 ```
 
-### Verify
+Verify:
 ```bash
 show running-config
 ```
 
-### Expected Results
-
+Expected Results:
 | Password Type     | Command         | Encrypted Type | Strength        |
 |------------------|-----------------|----------------|-----------------|
 | enable password  | Type 7          | Weak           | ❌ Not secure   |
