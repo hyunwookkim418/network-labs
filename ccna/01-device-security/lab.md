@@ -51,8 +51,6 @@ You should see:
 ```
 enable password CCNA
 ```
-
-This is **plaintext (insecure)**.
 ---
 ## Task 4 — Encrypt All Plaintext Passwords
 
