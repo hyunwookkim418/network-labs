@@ -18,6 +18,10 @@ enable
 show mac address-table
 show mac address-table dynamic
 ```
+Expected output example:
+Vlan  Mac Address       Type      Ports
+----  ----------------  --------  -----
+ 1    aaaa.bbbb.cccc    DYNAMIC   Fa0/1
 ---
 
 ## Credits
