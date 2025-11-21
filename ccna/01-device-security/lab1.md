@@ -63,6 +63,27 @@ Expected:
 ```
 enable password 7 <encrypted_string>
 ```
+### Bonus — Using `do show running-config` in Configuration Mode
+
+You can check the running configuration **without leaving config mode** by using the `do` prefix.
+
+Enter configuration mode:
+
+```bash
+configure terminal
+```
+
+Run the show command FROM config mode:
+
+```bash
+do show running-config
+```
+
+This is useful for:
+- Quickly verifying encryption
+- Checking enable passwords
+- Confirming hostname changes
+- Avoiding unnecessary mode switching
 ---
 ## Task 5 — Configure a Secure `enable secret`
 
@@ -99,7 +120,7 @@ copy running-config startup-config
 ---
 ## Credits
 
-These labs were inspired by the instructional style and lab structure taught in **Jeremy’s IT Lab CCNA course**.  
+These labs were inspired by the instructional style and lab structure shown in the **Day 4: Basic Device Security** lesson from **Jeremy’s IT Lab CCNA course**.  
 Jeremy’s clear explanations and practical demonstrations played a significant role in shaping the format and learning approach used in this repository.
 
 You can find Jeremy’s IT Lab here:  
