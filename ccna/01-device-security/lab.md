@@ -17,7 +17,7 @@ In this lab you will:
 - Configure a secure enable secret
 - Save the configuration
 ---
-# Task 1 — Change the Hostname
+## Task 1 — Change the Hostname
 
 ## On R1
 ```bash
@@ -27,7 +27,7 @@ hostname R1
 exit
 ```
 ---
-# Task 2 — Configure an Unencrypted enable password
+## Task 2 — Configure an Unencrypted enable password
 ```bash
 configure terminal
 enable password CCNA
