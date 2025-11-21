@@ -9,7 +9,6 @@ In this lab you will:
 - Verify forwarding decisions based on MAC learning
 
 ---
-
 ## Task 1 — View the MAC Address Table
 
 On SW1
@@ -22,6 +21,19 @@ Expected output example:
 | Vlan | Mac Address    | Type    | Ports |
 |------|----------------|---------|-------|
 |    1 | aaaa.bbbb.cccc | DYNAMIC | Fa0/1 |
+---
+## 2 — Generate Traffic to Populate the MAC Table
+From PC1 or PC2:
+```bash
+ping <other_host_ip>
+```
+Re-check:
+```bash
+show mac address-table
+```
+Expected:
+- New dynamic MAC entries appear under the correct ports.
+- Entries appear only after traffic is seen.
 ---
 
 ## Credits
